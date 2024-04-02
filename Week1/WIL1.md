@@ -27,23 +27,23 @@ Tracked 상태에서 파일은 삭제되기 전까지 Unmodified - Modified - St
 
 ### Git으로 파일 관리
 - **디렉토리 설정**
-  - `git init`: 디렉토리에 Git 저장소 생성
-  - `rm -r .git`: 해당 디렉토리의 Git 저장소 삭제
+  - `git init` : 디렉토리에 Git 저장소 생성
+  - `rm -r .git` : 해당 디렉토리의 Git 저장소 삭제
  
 - **Git으로 관리할 대상 등록**
-  - `git add .`: 해당 디렉토리의 모든 파일을 등록
-  - `git add <filename>`: 특정 파일을 등록
-  - `git rm --cached <filename>`: 등록된 파일을 Unstage로 되돌림
+  - `git add .` : 해당 디렉토리의 모든 파일을 등록
+  - `git add <filename>` : 특정 파일을 등록
+  - `git rm --cached <filename>` : 등록된 파일을 Unstage로 되돌림
  
 - **파일을 로컬 저장소로 이동**
   - `git commit -m "<message>"`
   - Commit Message의 종류(Type)는 다음과 같다.
-    - **feat**: 새로운 기능을 추가한 경우
-    - **refactor**: 기존 코드를 개선한 경우
-    - **fix**: 버그를 수정한 경우
-    - **chore**: 코드 외의 설정을 변경한 경우
-    - **docs**: 문서화
-    - **test**: 테스트 코드
+    - **feat** : 새로운 기능을 추가한 경우
+    - **refactor** : 기존 코드를 개선한 경우
+    - **fix** : 버그를 수정한 경우
+    - **chore** : 코드 외의 설정을 변경한 경우
+    - **docs** : 문서화
+    - **test** : 테스트 코드
   - 주로 `<Type>: <Comment>` 의 양식으로 작성함
  
 - **로컬 저장소의 파일을 Github(Remote)로 업로드**
